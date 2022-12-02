@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61a66ded-d864-4de0-9d00-59a55b72fda4" name="Changes" comment="implemented check of rgb values to make illegal param constructor test pass">
+    <list default="true" id="61a66ded-d864-4de0-9d00-59a55b72fda4" name="Changes" comment="created red test for constructor with single rgb representation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ColourTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Colour.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +59,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ColourTest.ConstructorWithThreeFloatRGBValues">
+  <component name="RunManager" selected="JUnit.ColourTest.ConstructorWithSingleRGBValue">
     <configuration name="ColourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="A03" />
       <extension name="coverage">
@@ -86,6 +86,22 @@
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.ColourTest" />
       <option name="METHOD_NAME" value="ConstructorWithIllegalFloatRGBValuesOutsideRange" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColourTest.ConstructorWithSingleRGBValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="A03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ColourTest" />
+      <option name="METHOD_NAME" value="ConstructorWithSingleRGBValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,6 +141,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ColourTest.ConstructorWithSingleRGBValue" />
         <item itemvalue="JUnit.ColourTest.ConstructorWithThreeFloatRGBValues" />
         <item itemvalue="JUnit.ColourTest.ConstructorWithIllegalFloatRGBValuesOutsideRange" />
         <item itemvalue="JUnit.ColourTest" />
@@ -176,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669986123335</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="created red test for constructor with single rgb representation">
+      <created>1669986990220</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669986990220</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,6 +220,7 @@
     <MESSAGE value="implemented 3 float constructor and getters to pass test" />
     <MESSAGE value="created red test to check illegal float values for three float constructor (not in 0.0&lt;x&lt;1.0)" />
     <MESSAGE value="implemented check of rgb values to make illegal param constructor test pass" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented check of rgb values to make illegal param constructor test pass" />
+    <MESSAGE value="created red test for constructor with single rgb representation" />
+    <option name="LAST_COMMIT_MESSAGE" value="created red test for constructor with single rgb representation" />
   </component>
 </project>
