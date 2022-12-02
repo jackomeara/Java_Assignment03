@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61a66ded-d864-4de0-9d00-59a55b72fda4" name="Changes" comment="implemented constructor with single param to pass failing test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Colour.java" afterDir="false" />
+    <list default="true" id="61a66ded-d864-4de0-9d00-59a55b72fda4" name="Changes" comment="implemented check in colour single param constructor to prevent invalid values">
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ColourTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,8 +58,8 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ColourTest.ConstructorWithSingleRGBValueWithInvalidValue">
-    <configuration name="ColourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ColourTest.CompareAlikeColours">
+    <configuration name="ColourTest.CompareAlikeColours" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="A03" />
       <extension name="coverage">
         <pattern>
@@ -71,7 +69,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.ColourTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="CompareAlikeColours" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ColourTest.CompareAlikeColours" />
         <item itemvalue="JUnit.ColourTest.ConstructorWithSingleRGBValueWithInvalidValue" />
         <item itemvalue="JUnit.ColourTest.ConstructorWithSingleRGBValue" />
         <item itemvalue="JUnit.ColourTest.ConstructorWithThreeFloatRGBValues" />
         <item itemvalue="JUnit.ColourTest.ConstructorWithIllegalFloatRGBValuesOutsideRange" />
-        <item itemvalue="JUnit.ColourTest" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +207,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669988555239</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="created failing test for throwing an error if single rgb value is too big">
+      <created>1669989109676</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669989109676</updated>
+    </task>
+    <task id="LOCAL-00009" summary="implemented check in colour single param constructor to prevent invalid values">
+      <created>1669989251391</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669989251391</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,6 +243,8 @@
     <MESSAGE value="implemented check of rgb values to make illegal param constructor test pass" />
     <MESSAGE value="created red test for constructor with single rgb representation" />
     <MESSAGE value="implemented constructor with single param to pass failing test" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented constructor with single param to pass failing test" />
+    <MESSAGE value="created failing test for throwing an error if single rgb value is too big" />
+    <MESSAGE value="implemented check in colour single param constructor to prevent invalid values" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented check in colour single param constructor to prevent invalid values" />
   </component>
 </project>

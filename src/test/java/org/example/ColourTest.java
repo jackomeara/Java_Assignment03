@@ -49,4 +49,13 @@ class ColourTest {
             new Colour(rgb);
         });
     }
+
+    @Test
+    void CompareAlikeColours(){
+        Colour colourA = new Colour(0.5F, 1.0F, 0.236871F);
+        Colour colourB = new Colour(0.5F, 1.0F, 0.236871F);
+
+        assertTrue(colourA.isEqual(colourB));
+        assertTrue(colourB.isEqual(colourA));
+    }
 }
