@@ -58,4 +58,13 @@ class ColourTest {
         assertTrue(colourA.isEqual(colourB));
         assertTrue(colourB.isEqual(colourA));
     }
+
+    @Test
+    void CompareDifferentColours(){
+        Colour colourA = new Colour(0.23F, 0.0F, 0.84532871F);
+        Colour colourB = new Colour(123563);
+
+        assertFalse(colourA.isEqual(colourB));
+        assertFalse(colourB.isEqual(colourA));
+    }
 }

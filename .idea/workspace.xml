@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61a66ded-d864-4de0-9d00-59a55b72fda4" name="Changes" comment="implemented check in colour single param constructor to prevent invalid values">
+    <list default="true" id="61a66ded-d864-4de0-9d00-59a55b72fda4" name="Changes" comment="implemented isEqual class to pass failing test of comparing alike colours">
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ColourTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +58,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ColourTest.CompareAlikeColours">
+  <component name="RunManager" selected="JUnit.ColourTest.CompareDifferentColours">
     <configuration name="ColourTest.CompareAlikeColours" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="A03" />
       <extension name="coverage">
@@ -75,7 +75,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ColourTest.ConstructorWithIllegalFloatRGBValuesOutsideRange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ColourTest.CompareDifferentColours" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="A03" />
       <extension name="coverage">
         <pattern>
@@ -85,7 +85,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.ColourTest" />
-      <option name="METHOD_NAME" value="ConstructorWithIllegalFloatRGBValuesOutsideRange" />
+      <option name="METHOD_NAME" value="CompareDifferentColours" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ColourTest.CompareDifferentColours" />
         <item itemvalue="JUnit.ColourTest.CompareAlikeColours" />
         <item itemvalue="JUnit.ColourTest.ConstructorWithSingleRGBValueWithInvalidValue" />
         <item itemvalue="JUnit.ColourTest.ConstructorWithSingleRGBValue" />
         <item itemvalue="JUnit.ColourTest.ConstructorWithThreeFloatRGBValues" />
-        <item itemvalue="JUnit.ColourTest.ConstructorWithIllegalFloatRGBValuesOutsideRange" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +221,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669989251391</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="created failing test for comparing colours that are the same">
+      <created>1669989502147</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669989502147</updated>
+    </task>
+    <task id="LOCAL-00011" summary="implemented isEqual class to pass failing test of comparing alike colours">
+      <created>1669989733200</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669989733200</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,6 +259,8 @@
     <MESSAGE value="implemented constructor with single param to pass failing test" />
     <MESSAGE value="created failing test for throwing an error if single rgb value is too big" />
     <MESSAGE value="implemented check in colour single param constructor to prevent invalid values" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented check in colour single param constructor to prevent invalid values" />
+    <MESSAGE value="created failing test for comparing colours that are the same" />
+    <MESSAGE value="implemented isEqual class to pass failing test of comparing alike colours" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented isEqual class to pass failing test of comparing alike colours" />
   </component>
 </project>
