@@ -33,8 +33,14 @@ public class Colour {
         // convert rgb int to binary string
         String binaryRGB = Integer.toBinaryString(rgb);
 
+        // check given int isn't greater than 24 bits or negative
         if((binaryRGB.length() > 24) || (rgb < 0)){
             throw new IllegalArgumentException("RGB int value must be between 0 and 16,777,215");
+        }
+
+        // add zeros to left side of binary number if isn't 24 bits long
+        while(binaryRGB.length() < 24){
+            binaryRGB = '0' + binaryRGB;
         }
 
         // get each section that represents a value, converting back to decimal
