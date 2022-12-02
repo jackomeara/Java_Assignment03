@@ -49,6 +49,10 @@ public class Colour {
         this.b = (float) rawB / 255;
     }
 
+    public boolean isEqual(Colour otherColour){
+        return(this.r == otherColour.getR() && this.g == otherColour.getG() && this.b == otherColour.getB());
+    }
+
     /**
      * Getter for red value
      * @return r red value as a float
