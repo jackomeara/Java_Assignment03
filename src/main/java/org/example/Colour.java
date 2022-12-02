@@ -55,6 +55,12 @@ public class Colour {
         this.b = (float) rawB / 255;
     }
 
+    /**
+     * checks if two colour objects are equal. To be equal they should have the same r, g and b
+     * values.
+     * @param otherColour the other colour to compare
+     * @return true or false, depending on if they are equal.
+     */
     public boolean isEqual(Colour otherColour){
         return(this.r == otherColour.getR() && this.g == otherColour.getG() && this.b == otherColour.getB());
     }

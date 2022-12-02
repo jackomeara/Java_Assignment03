@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61a66ded-d864-4de0-9d00-59a55b72fda4" name="Changes" comment="implemented isEqual class to pass failing test of comparing alike colours">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ColourTest.java" afterDir="false" />
+    <list default="true" id="61a66ded-d864-4de0-9d00-59a55b72fda4" name="Changes" comment="added functionality to append zeros to start of binary repr of colour if less than 24 bits">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Colour.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,22 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ColourTest.CompareDifferentColours">
+  <component name="RunManager" selected="JUnit.ColourTest">
+    <configuration name="ColourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="A03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ColourTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ColourTest.CompareAlikeColours" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="A03" />
       <extension name="coverage">
@@ -123,29 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ColourTest.ConstructorWithThreeFloatRGBValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="A03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ColourTest" />
-      <option name="METHOD_NAME" value="ConstructorWithThreeFloatRGBValues" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ColourTest" />
         <item itemvalue="JUnit.ColourTest.CompareDifferentColours" />
         <item itemvalue="JUnit.ColourTest.CompareAlikeColours" />
         <item itemvalue="JUnit.ColourTest.ConstructorWithSingleRGBValueWithInvalidValue" />
         <item itemvalue="JUnit.ColourTest.ConstructorWithSingleRGBValue" />
-        <item itemvalue="JUnit.ColourTest.ConstructorWithThreeFloatRGBValues" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +235,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669989733200</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="created compare different colours test which failed due to error in constructor class">
+      <created>1669989917803</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1669989917803</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added functionality to append zeros to start of binary repr of colour if less than 24 bits">
+      <created>1669990079606</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1669990079606</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,6 +275,8 @@
     <MESSAGE value="implemented check in colour single param constructor to prevent invalid values" />
     <MESSAGE value="created failing test for comparing colours that are the same" />
     <MESSAGE value="implemented isEqual class to pass failing test of comparing alike colours" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented isEqual class to pass failing test of comparing alike colours" />
+    <MESSAGE value="created compare different colours test which failed due to error in constructor class" />
+    <MESSAGE value="added functionality to append zeros to start of binary repr of colour if less than 24 bits" />
+    <option name="LAST_COMMIT_MESSAGE" value="added functionality to append zeros to start of binary repr of colour if less than 24 bits" />
   </component>
 </project>
