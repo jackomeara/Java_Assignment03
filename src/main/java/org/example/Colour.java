@@ -12,6 +12,10 @@ public class Colour {
      * @param b float to represent blue value
      */
     public Colour(float r, float g, float b){
+        if( (r < 0.0F || r > 1.0F) || (g < 0.0F || g > 1.0F) || (b < 0.0F || b > 1.0F) ){
+            throw new IllegalArgumentException("rgb values must be between 0.0 and 1.0");
+        }
+
         this.r = r;
         this.g = g;
         this.b = b;
