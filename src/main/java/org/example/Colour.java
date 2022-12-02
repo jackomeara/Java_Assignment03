@@ -33,6 +33,10 @@ public class Colour {
         // convert rgb int to binary string
         String binaryRGB = Integer.toBinaryString(rgb);
 
+        if((binaryRGB.length() > 24) || (rgb < 0)){
+            throw new IllegalArgumentException("RGB int value must be between 0 and 16,777,215");
+        }
+
         // get each section that represents a value, converting back to decimal
         int rawR = parseInt((binaryRGB.substring(0,8)), 2);
         int rawG = parseInt((binaryRGB.substring(8,16)), 2);

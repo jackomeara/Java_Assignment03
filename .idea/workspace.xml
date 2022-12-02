@@ -60,7 +60,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ColourTest.ConstructorWithSingleRGBValueWithTooLargeAValue">
+  <component name="RunManager" selected="JUnit.ColourTest.ConstructorWithSingleRGBValueWithInvalidValue">
     <configuration name="ColourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="A03" />
       <extension name="coverage">
@@ -108,7 +108,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ColourTest.ConstructorWithSingleRGBValueWithTooLargeAValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ColourTest.ConstructorWithSingleRGBValueWithInvalidValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="A03" />
       <extension name="coverage">
         <pattern>
@@ -118,7 +118,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.ColourTest" />
-      <option name="METHOD_NAME" value="ConstructorWithSingleRGBValueWithTooLargeAValue" />
+      <option name="METHOD_NAME" value="ConstructorWithSingleRGBValueWithInvalidValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,7 +142,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ColourTest.ConstructorWithSingleRGBValueWithTooLargeAValue" />
+        <item itemvalue="JUnit.ColourTest.ConstructorWithSingleRGBValueWithInvalidValue" />
         <item itemvalue="JUnit.ColourTest.ConstructorWithSingleRGBValue" />
         <item itemvalue="JUnit.ColourTest.ConstructorWithThreeFloatRGBValues" />
         <item itemvalue="JUnit.ColourTest.ConstructorWithIllegalFloatRGBValuesOutsideRange" />

@@ -26,7 +26,7 @@ class ColourTest {
         float b = -0.01F;
 
         assertThrows(IllegalArgumentException.class, ()->{
-            Colour colour = new Colour(r, g, b);
+            new Colour(r, g, b);
         });
     }
 
@@ -42,11 +42,11 @@ class ColourTest {
     }
 
     @Test
-    void ConstructorWithSingleRGBValueWithTooLargeAValue(){
+    void ConstructorWithSingleRGBValueWithInvalidValue(){
         int rgb = 293493282;
 
         assertThrows(IllegalArgumentException.class, ()->{
-            Colour colour = new Colour(rgb);
+            new Colour(rgb);
         });
     }
 }
