@@ -29,4 +29,15 @@ class ColourTest {
             Colour colour = new Colour(r, g, b);
         });
     }
+
+    @Test
+    void ConstructorWithSingleRGBValue(){
+        int rgb = 15895632;
+
+        Colour colour = new Colour(rgb);
+
+        assertEquals(colour.getR(), 0.94901960784F);
+        assertEquals(colour.getG(), 0.54901960784F);
+        assertEquals(colour.getB(), 0.31372549019F);
+    }
 }
