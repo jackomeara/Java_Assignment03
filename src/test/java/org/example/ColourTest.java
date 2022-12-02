@@ -40,4 +40,13 @@ class ColourTest {
         assertEquals(colour.getG(), 0.54901960784F);
         assertEquals(colour.getB(), 0.31372549019F);
     }
+
+    @Test
+    void ConstructorWithSingleRGBValueWithTooLargeAValue(){
+        int rgb = 293493282;
+
+        assertThrows(IllegalArgumentException.class, ()->{
+            Colour colour = new Colour(rgb);
+        });
+    }
 }
