@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61a66ded-d864-4de0-9d00-59a55b72fda4" name="Changes" comment="added functionality to append zeros to start of binary repr of colour if less than 24 bits">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Colour.java" afterDir="false" />
-    </list>
+    <list default="true" id="61a66ded-d864-4de0-9d00-59a55b72fda4" name="Changes" comment="added javadoc to is equal method" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -249,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669990079606</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added javadoc to is equal method">
+      <created>1669990463426</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1669990463426</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -277,6 +281,7 @@
     <MESSAGE value="implemented isEqual class to pass failing test of comparing alike colours" />
     <MESSAGE value="created compare different colours test which failed due to error in constructor class" />
     <MESSAGE value="added functionality to append zeros to start of binary repr of colour if less than 24 bits" />
-    <option name="LAST_COMMIT_MESSAGE" value="added functionality to append zeros to start of binary repr of colour if less than 24 bits" />
+    <MESSAGE value="added javadoc to is equal method" />
+    <option name="LAST_COMMIT_MESSAGE" value="added javadoc to is equal method" />
   </component>
 </project>

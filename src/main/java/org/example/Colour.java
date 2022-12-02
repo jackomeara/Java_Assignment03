@@ -43,12 +43,12 @@ public class Colour {
             binaryRGB = '0' + binaryRGB;
         }
 
-        // get each section that represents a value, converting back to decimal
+        // get each byte that represents a value, converting back to decimal
         int rawR = parseInt((binaryRGB.substring(0,8)), 2);
         int rawG = parseInt((binaryRGB.substring(8,16)), 2);
         int rawB = parseInt((binaryRGB.substring(16,24)), 2);
 
-        // normalise each value by dividing by 255 (as binary num can be between 0 and 255,
+        // normalise each value by dividing by 255 (as byte can be between 0 and 255,
         // but is internally represented as float between 0.0 and 1.0)
         this.r = (float) rawR / 255;
         this.g = (float) rawG / 255;
